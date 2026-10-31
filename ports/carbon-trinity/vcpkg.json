@@ -1,6 +1,6 @@
 {
   "name": "carbon-trinity",
-  "version": "4.0.2",
+  "version": "7.0.1",
   "description": "Graphics engine for the carbon game engine",
   "dependencies": [
     {
@@ -13,11 +13,15 @@
     },
     {
       "name": "carbon-blue",
-      "version>=": "5.1.2"
+      "version>=": "6.2.0"
     },
     {
       "name": "carbon-core",
-      "version>=": "2.4.0"
+      "version>=": "3.0.0"
+    },
+    {
+      "name": "carbon-destiny",
+      "version>=": "3.1.1#1"
     },
     {
       "name": "carbon-imageio",
@@ -37,7 +41,7 @@
     },
     {
       "name": "carbon-pdmprotowrapper",
-      "version>=": "2.0.4"
+      "version>=": "3.0.0#1"
     },
     {
       "name": "carbon-trinityaudioapi",

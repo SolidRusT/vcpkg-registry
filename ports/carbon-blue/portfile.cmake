@@ -1,7 +1,7 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
-  URL git@github.com:carbonengine/blue.git
-  REF 2c7a077d664325f5e66700690683f626dafe06af
+  URL https://github.com/carbonengine/blue.git
+  REF 713f0ee394f12da2f8973f42e51a371ea60360d9
   HEAD_REF main
 )
 

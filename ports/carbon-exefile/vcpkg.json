@@ -1,6 +1,6 @@
 {
   "name": "carbon-exefile",
-  "version": "4.1.1",
+  "version": "4.2.0",
   "description": "Elements used to build the final exefile executable",
   "dependencies": [
     {

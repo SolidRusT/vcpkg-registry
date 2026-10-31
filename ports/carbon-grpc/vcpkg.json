@@ -1,6 +1,6 @@
 {
   "name": "carbon-grpc",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Provides base functionality for project specific gRPC modules.",
   "dependencies": [
     {
@@ -16,7 +16,7 @@
       "features": [
         "pyext"
       ],
-      "version>=": "3.17.3"
+      "version>=": "6.33.4"
     },
     {
       "name": "python3",

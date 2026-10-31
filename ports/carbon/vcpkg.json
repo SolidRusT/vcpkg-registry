@@ -1,32 +1,36 @@
 {
   "name": "carbon",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Fenris Creations' CARBON development platform.",
   "homepage": "https://www.fenris.com/carbon",
   "license": "MIT",
   "supports": "(windows & x64) | osx",
   "dependencies": [
     {
+      "name": "carbon-audio",
+      "version>=": "10.0.0"
+    },
+    {
       "name": "carbon-blue",
-      "version>=": "6.0.0"
+      "version>=": "6.3.0"
     },
     {
       "name": "carbon-blueexposure",
-      "version>=": "2.1.1"
+      "version>=": "2.2.0"
     },
     {
       "name": "carbon-core",
-      "version>=": "3.0.0"
+      "version>=": "3.2.0"
     },
     {
       "name": "carbon-d3dinfo",
       "platform": "windows & x64",
-      "version>=": "2.0.2#1"
+      "version>=": "2.0.3"
     },
     {
       "name": "carbon-db",
       "platform": "windows & x64",
-      "version>=": "2.3.1#2"
+      "version>=": "2.4.0"
     },
     {
       "name": "carbon-destiny",
@@ -34,7 +38,7 @@
     },
     {
       "name": "carbon-exefile",
-      "version>=": "4.1.1"
+      "version>=": "4.2.0"
     },
     {
       "name": "carbon-exefile-interpreter",
@@ -46,25 +50,29 @@
       "version>=": "1.1.1"
     },
     {
+      "name": "carbon-fsd",
+      "version>=": "2.2.0"
+    },
+    {
       "name": "carbon-geo2",
       "version>=": "2.1.2"
     },
     {
       "name": "carbon-imageio",
-      "version>=": "2.0.6"
+      "version>=": "2.0.6#1"
     },
     {
       "name": "carbon-imagetools",
       "platform": "windows & x64",
-      "version>=": "2.0.3"
+      "version>=": "2.0.4"
     },
     {
       "name": "carbon-ime",
-      "version>=": "2.0.0#1"
+      "version>=": "2.0.3"
     },
     {
       "name": "carbon-io",
-      "version>=": "1.3.1"
+      "version>=": "1.3.3"
     },
     {
       "name": "carbon-localization",
@@ -72,11 +80,18 @@
     },
     {
       "name": "carbon-math",
-      "version>=": "1.2.1"
+      "version>=": "1.2.2"
     },
     {
       "name": "carbon-mesh",
-      "version>=": "1.0.0#1"
+      "features": [
+        {
+          "name": "simplygon",
+          "platform": "windows & x64"
+        },
+        "tools"
+      ],
+      "version>=": "1.1.1"
     },
     {
       "name": "carbon-parser",
@@ -88,11 +103,11 @@
     },
     {
       "name": "carbon-pdm",
-      "version>=": "2.1.7"
+      "version>=": "2.2.0"
     },
     {
       "name": "carbon-pdmprotowrapper",
-      "version>=": "2.0.4"
+      "version>=": "3.0.0"
     },
     {
       "name": "carbon-prometheus",
@@ -100,15 +115,39 @@
     },
     {
       "name": "carbon-scheduler",
-      "version>=": "1.4.3"
+      "version>=": "1.5.0"
     },
     {
       "name": "carbon-spacemouse",
-      "version>=": "3.0.0"
+      "version>=": "3.0.1"
+    },
+    {
+      "name": "carbon-trinity",
+      "features": [
+        {
+          "name": "dx11",
+          "platform": "windows & x64"
+        },
+        {
+          "name": "dx12",
+          "platform": "windows & x64"
+        },
+        {
+          "name": "metal",
+          "platform": "osx"
+        },
+        "shader-compiler",
+        "with-granny"
+      ],
+      "version>=": "7.0.1"
     },
     {
       "name": "carbon-trinityaudioapi",
-      "version>=": "2.0.3"
+      "version>=": "3.0.0"
+    },
+    {
+      "name": "carbon-videoplayer",
+      "version>=": "3.0.0"
     }
   ]
 }

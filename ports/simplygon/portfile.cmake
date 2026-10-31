@@ -1,0 +1,19 @@
+vcpkg_download_distfile(
+    ZIP_LOC
+    URLS "https://vcpkg-prebuilt-sdks.ccpgames.com/simplygon/simplygon-v10.4.338.0.zip"
+    FILENAME simplygon
+    SHA512 396781351E423A903A0DED982086D701FBDD17BD6003C80B33EC78149E631E2ADA9F7E5303DD8C34FDFD9145D0C2ED482D09267454F270653353FBD64CBB7181
+)
+vcpkg_extract_source_archive(
+    SOURCE_DIR
+    ARCHIVE ${ZIP_LOC}
+    NO_REMOVE_ONE_LEVEL
+)
+
+file(COPY ${SOURCE_DIR}/Simplygon.h DESTINATION ${CURRENT_PACKAGES_DIR}/include)
+file(COPY ${SOURCE_DIR}/SimplygonLoader.h DESTINATION ${CURRENT_PACKAGES_DIR}/include)
+file(COPY ${SOURCE_DIR}/SimplygonLoader.cpp DESTINATION ${CURRENT_PACKAGES_DIR}/include)
+
+file(COPY ${SOURCE_DIR}/Simplygon.dll DESTINATION ${CURRENT_PACKAGES_DIR}/bin)
+
+file(COPY ${SOURCE_DIR}/SimplygonConfig.cmake DESTINATION ${CURRENT_PACKAGES_DIR}/share/simplygon)

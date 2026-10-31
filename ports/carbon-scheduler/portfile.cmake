@@ -1,7 +1,7 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
-  URL git@github.com:carbonengine/scheduler.git
-  REF 75d6f124d86cd127b410e8350286dcb674882af0
+  URL https://github.com/carbonengine/scheduler.git
+  REF 4b710c69157d1bbd9bff824d4e8246cefb5e3a57
   HEAD_REF main
 )
 

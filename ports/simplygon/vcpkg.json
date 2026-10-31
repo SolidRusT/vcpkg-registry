@@ -1,0 +1,17 @@
+{
+  "name": "simplygon",
+  "version": "10.4.338",
+  "description": "Library for simplifying geometry.",
+  "homepage": "https://www.simplygon.com/",
+  "supports": "windows & x64",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}

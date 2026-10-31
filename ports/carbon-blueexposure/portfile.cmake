@@ -1,7 +1,7 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
   URL git@github.com:carbonengine/blueexposure.git
-  REF c855175f5f261a301a12b63c0337e8eb8d92b081
+  REF fc29511269ba22a916cd74f68a88e122eb386d32
   HEAD_REF main
 )
 
